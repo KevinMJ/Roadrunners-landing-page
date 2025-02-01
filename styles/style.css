@@ -1,0 +1,80 @@
+*{
+    padding: 0;
+    margin: 0;
+    text-decoration: none;
+    box-sizing: border-box;
+    list-style-type: none;
+    font-size: 100%;
+    font-family: "Roboto", serif;
+}
+
+:root{
+    --dark-bg-color: #1F2937;
+    --primary-color: #F9FAF8;
+    --secondary-color: #E5E7EB;
+    --cta-bg-color: #3882F6;
+}
+
+body{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    height: 100vh;
+}
+
+header{
+    display: flex;
+    justify-content: space-between;
+    padding: 24px 192px;
+    align-items: center;
+    background-color: var(--dark-bg-color);
+}
+
+.header-logo > img{
+    width: 250px;
+    filter: invert(89%) sepia(100%) saturate(32%) hue-rotate(253deg) brightness(108%) contrast(100%);
+}
+
+nav > ul {
+    display: flex;
+    gap: 20px;
+}
+
+nav > ul > li > a{
+    color:var(--secondary-color);
+}
+
+main{
+    background-color: var(--dark-bg-color);
+    display: flex;
+    padding: 24px 192px;
+    align-items: center;
+    gap: 46px;
+    flex: 1;
+}
+
+.main-message > h1{
+    font-size: 48px;
+    color: var(--primary-color);
+    font-weight: 900;
+}
+
+.main-message > p {
+    font-size: 18px;
+    color: var(--secondary-color);
+}
+
+main>img{
+    max-width: 50%;
+}
+
+.cta-button{
+    color: var(--primary-color);
+    background-color: var(--cta-bg-color);
+    margin-top: 15px;
+    border: none;
+    padding: 10px 40px;
+    border-radius: 10px;
+    font-weight: bolder;
+}
+
