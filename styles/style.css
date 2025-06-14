@@ -58,10 +58,11 @@ nav a{
     width: 100%;
     padding: 5% 10%;
     display: flex;
-    gap: 4em;
+    justify-content: space-between;
 }
 
 .hero img {
+    padding-left: 2em;
     max-width: 40%;
     object-fit: scale-down;
 }
@@ -70,6 +71,7 @@ nav a{
     font-size: 48px;
     color: var(--primary-color);
     font-weight: 900;
+    max-width: 50%;
 }
 
 .main-message p {
@@ -162,6 +164,10 @@ blockquote{
     justify-content: space-between;
 }
 
+.cta-text{
+    max-width: 75%;
+}
+
 .banner{
     width: 100%;
     background-color: var(--cta-bg-color);
@@ -170,7 +176,7 @@ blockquote{
     padding: 1em 3em;
     display: flex;
     align-items: center;
-    gap: 1.5em;
+    justify-content: space-between;
 }
 
 .cta button{
@@ -181,7 +187,6 @@ blockquote{
     padding:  .5em 2em;
     font-weight: bolder;
     border-radius: 2em;
-
 }
 
 /* Footer section ============== */
